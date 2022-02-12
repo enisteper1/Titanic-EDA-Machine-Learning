@@ -8,7 +8,7 @@ There are 3 sections at total which are:
 * Submission
 
 ## 1. EDA & Feature Engineering
-## 2.1 Features
+## 1.1 Features
 * **Sex Feature:** Most of these survivors are female, but men count approximately doubles count of women. From this, we can assume that women were given priority during the rescue.
 * **Embarked Feature:** Embarked indicates from which port the passengers boarded the ship. Men from 3rd class predominantly embarked from Southampton. Passengers embarked from Cherbourg has highest survival rate. The reason of it, most men are from the 1st class and the number of women is more than men.
 * **Cabin Feature:** This feature has most NaN values at total. At first NaN values are filled with N class to process. Then, because of not NaN values are unique and their first letter represents their belonged deck only first characters of the cabin data are going to be considered.
@@ -18,10 +18,10 @@ There are 3 sections at total which are:
 * **Fare Feature:** At first, it is normalized with interquartile ranges. Then, distribution boundaries obtained with qcut, but because of I will be using tree based models at submission it is not processed. 
 * **Pclass Feature:** This feature is ordinal categorical data. It shows the class of the passenger which is correlated with Fare feature. Yet, instead of keeping the categorical ordinal as same, categorizing it increased the overall succes at train & test side. 
 * **Age Feature:** Survival rate of children is particularly high. Most of the boarders are in the 18-40 age range.
-## 2.2 Feature Correlations
+## 1.2 Feature Correlations
 <img src="https://user-images.githubusercontent.com/45767042/153708144-b3ff4f2d-8d81-41c0-b704-5fcbebab35e8.png">
 
-## 2. Train & Evaluation
+## 2. Machine Learning & Model Selection
 ## 2.1 CATBoost Classifier
 * **Depth:** Determines the depth of the tree and is the same for all trees.
 * **Iterations:** Determines the maximum number of trees to be created.
