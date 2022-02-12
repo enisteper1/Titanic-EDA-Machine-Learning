@@ -1,0 +1,90 @@
+
+**********************LGBM**************************
+0.8529596384407758---Index(['Sex', 'Age', 'Fare', 'Group_Survive', 'Title_Master', 'Title_Miss',
+       'Title_Mr', 'Title_Mrs', 'Title_Other', 'Ppl_in_Family_(0, 1]',
+       'Ppl_in_Family_(1, 2]', 'Ppl_in_Family_(2, 3]', 'Ppl_in_Family_(3, 4]',
+       'Ppl_in_Family_(4, 5]', 'Ppl_in_Family_(5, 11]', 'Ppl_in_Group_(0, 1]',
+       'Ppl_in_Group_(1, 2]', 'Ppl_in_Group_(2, 3]', 'Ppl_in_Group_(3, 4]',
+       'Ppl_in_Group_(4, 5]', 'Ppl_in_Group_(5, 11]', 'Pclass_1', 'Pclass_2',
+       'Pclass_3', 'Ticket_A5', 'Ticket_CA', 'Ticket_Numeric', 'Ticket_Other',
+       'Ticket_PC', 'Ticket_SOTONOQ', 'Ticket_STONO', 'Ticket_WC',
+       'Cabin_Category_A', 'Cabin_Category_BC', 'Cabin_Category_DE',
+       'Cabin_Category_FG', 'Cabin_Category_N', 'Embarked_C', 'Embarked_Q',
+       'Embarked_S', 'Survived', 'PassengerId'],
+      dtype='object')
+***************************************************
+
+*******************XGBoost**************************
+0.8148138848785387---Index(['Sex', 'Age', 'Fare', 'Group_Survive', 'Title_Master', 'Title_Miss',
+       'Title_Mr', 'Title_Mrs', 'Title_Other', 'Ppl_in_Family_(0, 1]',
+       'Ppl_in_Family_(1, 2]', 'Ppl_in_Family_(2, 3]', 'Ppl_in_Family_(3, 4]',
+       'Ppl_in_Family_(4, 5]', 'Ppl_in_Family_(5, 11]', 'Ppl_in_Group_(0, 1]',
+       'Ppl_in_Group_(1, 2]', 'Ppl_in_Group_(2, 3]', 'Ppl_in_Group_(3, 4]',
+       'Ppl_in_Group_(4, 5]', 'Ppl_in_Group_(5, 11]', 'Pclass_1', 'Pclass_2',
+       'Pclass_3', 'Ticket_A5', 'Ticket_CA', 'Ticket_Numeric', 'Ticket_Other',
+       'Ticket_PC', 'Ticket_SOTONOQ', 'Ticket_STONO', 'Ticket_WC',
+       'Cabin_Category_A', 'Cabin_Category_BC', 'Cabin_Category_DE',
+       'Cabin_Category_FG', 'Cabin_Category_N', 'Embarked_C', 'Embarked_Q',
+       'Embarked_S', 'Survived', 'PassengerId'],
+      dtype='object')
+***************************************************
+
+****************Random Forest Classifier************
+0.8439959826752872---Index(['Sex', 'Age', 'Fare', 'Group_Survive', 'Title_Master', 'Title_Miss',
+       'Title_Mr', 'Title_Mrs', 'Title_Other', 'Ppl_in_Family_(0, 1]',
+       'Ppl_in_Family_(1, 2]', 'Ppl_in_Family_(2, 3]', 'Ppl_in_Family_(3, 4]',
+       'Ppl_in_Family_(4, 5]', 'Ppl_in_Family_(5, 11]', 'Ppl_in_Group_(0, 1]',
+       'Ppl_in_Group_(1, 2]', 'Ppl_in_Group_(2, 3]', 'Ppl_in_Group_(3, 4]',
+       'Ppl_in_Group_(4, 5]', 'Ppl_in_Group_(5, 11]', 'Pclass_1', 'Pclass_2',
+       'Pclass_3', 'Ticket_A5', 'Ticket_CA', 'Ticket_Numeric', 'Ticket_Other',
+       'Ticket_PC', 'Ticket_SOTONOQ', 'Ticket_STONO', 'Ticket_WC',
+       'Cabin_Category_A', 'Cabin_Category_BC', 'Cabin_Category_DE',
+       'Cabin_Category_FG', 'Cabin_Category_N', 'Embarked_C', 'Embarked_Q',
+       'Embarked_S', 'Survived', 'PassengerId'],
+      dtype='object')
+***************************************************
+
+***********************CATBOOST************************
+0.8428786642395331---Index(['Sex', 'Age', 'Fare', 'Group_Survive', 'Title_Master', 'Title_Miss',
+       'Title_Mr', 'Title_Mrs', 'Title_Other', 'Ppl_in_Family_(0, 1]',
+       'Ppl_in_Family_(1, 2]', 'Ppl_in_Family_(2, 3]', 'Ppl_in_Family_(3, 4]',
+       'Ppl_in_Family_(4, 5]', 'Ppl_in_Family_(5, 11]', 'Ppl_in_Group_(0, 1]',
+       'Ppl_in_Group_(1, 2]', 'Ppl_in_Group_(2, 3]', 'Ppl_in_Group_(3, 4]',
+       'Ppl_in_Group_(4, 5]', 'Ppl_in_Group_(5, 11]', 'Pclass_1', 'Pclass_2',
+       'Pclass_3', 'Ticket_A5', 'Ticket_CA', 'Ticket_Numeric', 'Ticket_Other',
+       'Ticket_PC', 'Ticket_SOTONOQ', 'Ticket_STONO', 'Ticket_WC',
+       'Cabin_Category_A', 'Cabin_Category_BC', 'Cabin_Category_DE',
+       'Cabin_Category_FG', 'Cabin_Category_N', 'Embarked_C', 'Embarked_Q',
+       'Embarked_S', 'Survived', 'PassengerId'],
+      dtype='object')
+***************************************************
+
+*************Logistic Regression********************
+0.8327851358985624---Index(['Sex', 'Age', 'Fare', 'Group_Survive', 'Title_Master', 'Title_Miss',
+       'Title_Mr', 'Title_Mrs', 'Title_Other', 'Ppl_in_Family_(0, 1]',
+       'Ppl_in_Family_(1, 2]', 'Ppl_in_Family_(2, 3]', 'Ppl_in_Family_(3, 4]',
+       'Ppl_in_Family_(4, 5]', 'Ppl_in_Family_(5, 11]', 'Ppl_in_Group_(0, 1]',
+       'Ppl_in_Group_(1, 2]', 'Ppl_in_Group_(2, 3]', 'Ppl_in_Group_(3, 4]',
+       'Ppl_in_Group_(4, 5]', 'Ppl_in_Group_(5, 11]', 'Pclass_1', 'Pclass_2',
+       'Pclass_3', 'Ticket_A5', 'Ticket_CA', 'Ticket_Numeric', 'Ticket_Other',
+       'Ticket_PC', 'Ticket_SOTONOQ', 'Ticket_STONO', 'Ticket_WC',
+       'Cabin_Category_A', 'Cabin_Category_BC', 'Cabin_Category_DE',
+       'Cabin_Category_FG', 'Cabin_Category_N', 'Embarked_C', 'Embarked_Q',
+       'Embarked_S', 'Survived', 'PassengerId'],
+      dtype='object')
+***************************************************
+
+*****************Voting Classifier******************
+0.844002259745151---Index(['Sex', 'Age', 'Fare', 'Group_Survive', 'Title_Master', 'Title_Miss',
+       'Title_Mr', 'Title_Mrs', 'Title_Other', 'Ppl_in_Family_(0, 1]',
+       'Ppl_in_Family_(1, 2]', 'Ppl_in_Family_(2, 3]', 'Ppl_in_Family_(3, 4]',
+       'Ppl_in_Family_(4, 5]', 'Ppl_in_Family_(5, 11]', 'Ppl_in_Group_(0, 1]',
+       'Ppl_in_Group_(1, 2]', 'Ppl_in_Group_(2, 3]', 'Ppl_in_Group_(3, 4]',
+       'Ppl_in_Group_(4, 5]', 'Ppl_in_Group_(5, 11]', 'Pclass_1', 'Pclass_2',
+       'Pclass_3', 'Ticket_A5', 'Ticket_CA', 'Ticket_Numeric', 'Ticket_Other',
+       'Ticket_PC', 'Ticket_SOTONOQ', 'Ticket_STONO', 'Ticket_WC',
+       'Cabin_Category_A', 'Cabin_Category_BC', 'Cabin_Category_DE',
+       'Cabin_Category_FG', 'Cabin_Category_N', 'Embarked_C', 'Embarked_Q',
+       'Embarked_S', 'Survived', 'PassengerId'],
+      dtype='object')
+***************************************************
